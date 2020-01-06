@@ -13,11 +13,13 @@ def nyc_pigeon_organizer(data)
              else
                pigeon[name][key] = [des.to_s]
             end
+          else
+            pigeon[name] = {key=>[des.to_s]} 
           end
       end 
     end 
   end
-  binding.pry
+  return pigeon
 end  
 
 
