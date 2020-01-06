@@ -1,17 +1,18 @@
 require 'pry'
 def nyc_pigeon_organizer(data)
-   pigeon_list = {}
-  # binding.pry
-   pigeon = data[:gender][:male] + data[:gender][:female]
-   i = 0 
-   while i < pigeon.length do
-     puts entry
-     yield(entry)
-      pigeon_list = {entry}
-   i += 1 
+    pigeon = {}
+    
+   
+   data.each do |key, value|
+     value.each do |des, arr|
+       arr.each do |name|
+       end 
+     end 
    end
-   binding.pry
-end   
+end  
+
+
+
   # return pigeon_list
   # data[:color][i]
   # data[:color][:purple][i]
