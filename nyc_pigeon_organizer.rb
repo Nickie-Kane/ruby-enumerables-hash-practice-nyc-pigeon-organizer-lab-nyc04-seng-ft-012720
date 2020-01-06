@@ -25,10 +25,10 @@ end
   # data[:lives]["Central Park"]
   # data[:lives]["Library"]
   # data[:lives]["City Hall"]
-entry = pigeon[i]=>"0"
-nyc_pigeon_organizer(entry) do |v|
-   puts v
- end
+# entry = pigeon[i]=>"0"
+# nyc_pigeon_organizer(entry) do |v|
+#   puts v
+# end
    
   # binding.pry
 end
