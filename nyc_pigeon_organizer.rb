@@ -28,6 +28,7 @@ end
 entry = pigeon[i]=>"0"
 nyc_pigeon_organizer(entry) do |v|
    puts v
+ end
    
   # binding.pry
 end
